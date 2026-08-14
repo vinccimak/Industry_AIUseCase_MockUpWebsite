@@ -1,0 +1,2180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PCCW | Industry AI Use Cases</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="Styling%20and%20JavaScript/Style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <a class="brand" href="#overview" aria-label="PCCW Industry AI Use Cases">
+        <span class="brand-mark" id="brand-mark">PCCW</span>
+        <span class="brand-divider"></span>
+        <span class="brand-name" id="brand-name">Industry AI Use Cases</span>
+      </a>
+
+      <div class="header-toggle" aria-label="Language toggle">
+        <button type="button" class="lang-toggle active" data-lang="en">Eng</button>
+        <span class="lang-divider">/</span>
+        <button type="button" class="lang-toggle" data-lang="zh">中</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+<!-- HERO -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          
+          <h1 data-text-en="AI Use Cases Built for Real Business Impact" data-text-zh="人工智慧應用案例，為業務創造實際成效">
+            AI Use Cases Built for Real Business Impact
+          </h1>
+
+          <p class="hero-text" data-text-en="Explore practical AI applications across financial services, manufacturing, retail, health care, and logistics" data-text-zh="探索實用的人工智慧應用，涵蓋金融服務、製造、零售、醫療及物流">
+            Explore practical AI applications across financial services,
+            manufacturing, retail, health care, and logistics
+          </p>
+
+          <a class="primary-button" href="#industry" data-text-en="Explore Industries" data-text-zh="探索行業">
+            Explore Industries <span>&rarr;</span>
+          </a>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-grid"></div>
+          <div class="visual-card visual-card-one">
+            <span class="visual-icon">AI</span>
+            <span data-text-en="Intelligent Automation" data-text-zh="智能自動化">Intelligent Automation</span>
+          </div>
+          <div class="visual-card visual-card-two">
+            <span class="visual-dot"></span>
+            <span data-text-en="Real-time Insights" data-text-zh="即時洞察">Real-time Insights</span>
+          </div>
+          <div class="visual-line visual-line-one"></div>
+          <div class="visual-line visual-line-two"></div>
+          <div class="visual-circle visual-circle-one"></div>
+          <div class="visual-circle visual-circle-two"></div>
+        </div>
+      </div>
+    </section>
+
+ <!-- OVERVIEW -->
+    <section class="overview-section" id="overview">
+      <div class="section-container overview-container">
+        <div class="overview-heading">
+          <p class="eyebrow" data-text-en="OVERVIEW" data-text-zh="概覽">OVERVIEW</p>
+          <h2 class="overview-title" data-text-en="From connectivity to intelligent operations" data-text-zh="從連接到智能營運">
+            From connectivity to intelligent operations
+          </h2>
+        </div>
+
+        <div class="overview-content">
+          <p data-text-en="Enterprise AI creates the most value when it is supported by secure networks, cloud infrastructure, trusted data, and scalable digital operations"
+             data-text-zh="企業人工智慧在安全網絡、雲端基礎設施、可信數據與可擴展數碼營運的支援下，才能發揮最大價值">
+            Enterprise AI creates the most value when it is supported by secure networks, cloud infrastructure, trusted data, and scalable digital operations
+          </p>
+
+          <p data-text-en="These use cases show how organisations can apply AI to improve decision-making, reduce operational effort, strengthen resilience, and deliver better customer outcomes"
+             data-text-zh="這些案例展示了企業如何應用人工智慧來改善決策、減少營運工作量、加強韌性，並提升客戶體驗">
+            These use cases show how organisations can apply AI to improve decision-making, reduce operational effort, strengthen resilience, and deliver better customer outcomes
+          </p>
+        </div>
+      </div>
+    </section>
+
+<!-- INDUSTRY -->
+    <section class="industry-section" id="industry">
+      <div class="section-container">
+
+        <div class="section-heading">
+          <p class="eyebrow" data-text-en="INDUSTRY USE CASES" data-text-zh="行業應用案例">INDUSTRY USE CASES</p>
+          <h2 data-text-en="Explore AI opportunities by industry" data-text-zh="按行業探索人工智慧應用">Explore AI opportunities by industry</h2>
+          <p data-text-en="Select an industry to view practical AI applications and representative case-study examples"
+             data-text-zh="選擇一個行業，查看實用的人工智慧應用與代表性案例">
+            Select an industry to view practical AI applications and representative case-study examples.
+          </p>
+        </div>
+
+        <div class="industry-tabs">
+          <button class="industry-tab active" type="button" data-tab="finance" aria-selected="true" data-text-en="Finance" data-text-zh="金融">Finance</button>
+          <button class="industry-tab" type="button" data-tab="manufacturing" aria-selected="false" data-text-en="Manufacturing" data-text-zh="製造">Manufacturing</button>
+          <button class="industry-tab" type="button" data-tab="retail" aria-selected="false" data-text-en="Retail" data-text-zh="零售">Retail</button>
+          <button class="industry-tab" type="button" data-tab="healthcare" aria-selected="false" data-text-en="Health Care" data-text-zh="醫療">Health Care</button>
+          <button class="industry-tab" type="button" data-tab="logistics" aria-selected="false" data-text-en="Logistics" data-text-zh="物流">Logistics</button>
+        </div>
+
+        <div class="industry-panel-wrap">
+
+<!-- Finance -->
+    <div class="industry-panel active" data-panel="finance" id="finance-panel">
+      <div class="case-grid case-grid--finance">
+        
+      
+      <!-- Fraud Detection – HSBC -->
+      <button
+        class="case-card case-card--button"
+        type="button"
+        data-case="hsbc"
+        aria-label="Open HSBC case study">
+        <div class="case-card-top">
+          <span class="case-number">01</span>
+          <h3
+            data-text-en="Fraud Detection"
+            data-text-zh="詐騙偵測"
+          >
+            Fraud Detection
+          </h3>
+        </div>
+
+        <div class="company-block company-block--hsbc">
+          <img
+            class="company-logo company-logo--hsbc"
+            src="Company Logo/HSBC.jpeg"
+            alt="HSBC logo"
+          >
+        </div>
+
+        <div class="case-card-bottom">
+          <p
+            data-text-en="AI-powered transaction monitoring for real-time Dynamic Risk Assessment"
+            data-text-zh="運用人工智慧交易監控，實現動態風險評估"
+          >
+            AI-powered transaction monitoring for real-time Dynamic Risk Assessment
+          </p>
+          <span
+            class="case-link"
+            data-text-en="View Case Study →"
+            data-text-zh="查看案例 →"
+          >
+            View Case Study → <span>&rarr;</span>
+          </span>
+        </div>
+      </button>
+
+        
+      <!-- Customer Onboarding – OCBC -->
+      <button class="case-card case-card--button" type="button" data-case="ocbc" aria-label="Open OCBC case study">
+        <div class="case-card-top">
+          <span class="case-number">02</span>
+          <h3 data-text-en="Customer Onboarding" data-text-zh="客戶開戶">
+              Customer Onboarding
+          </h3>
+        </div>
+
+        <div class="company-block company-block--logo">
+          <img class="company-logo company-logo--ocbc" src="Company Logo/OCBC.png" alt="OCBC logo">
+        </div>
+
+        <div class="case-card-bottom">
+          <p
+            data-text-en="Uses agentic AI to improve corporate and private banking onboarding"
+            data-text-zh="利用代理型人工智慧提升企業及私人銀行的開戶與入職體驗"
+          >
+            Uses agentic AI to improve corporate and private banking onboarding
+          </p>
+          <span class="case-link" data-text-en="View Case Study →" data-text-zh="查看案例 →">
+              View Case Study → <span>&rarr;</span>
+          </span>
+        </div>
+      </button>
+
+      
+      <!-- Investment Research & Advisory – Ask DAVID -->
+      <button class="case-card case-card--button" type="button" data-case="david" aria-label="Open Ask DAVID case study">
+        <div class="case-card-top">
+          <span class="case-number">03</span>
+          <h3 data-text-en="Investment Research<br>&amp; Advisory" data-text-zh="投資研究與顧問">
+            Investment Research<br>&amp; Advisory
+          </h3>
+        </div>
+
+        <div class="company-block company-block--logo">
+          <img class="company-logo company-logo--jpmorgan" src="Company Logo/JPMorgan.png" alt="J.P. Morgan logo">
+        </div>
+
+        <div class="case-card-bottom">
+          <p
+            data-text-en="Delivering AI-powered investment research insights to accelerate advisor decision-making"
+            data-text-zh="運用人工智慧提供精準投資研究洞察，加速顧問決策效率"
+          >
+            Delivering AI-powered investment research insights to accelerate advisor decision-making
+          </p>
+          <span class="case-link" data-text-en="View Case Study →" data-text-zh="查看案例 →">
+            View Case Study → <span>&rarr;</span>
+          </span>
+        </div>
+      </button>
+
+     
+
+      <!-- Security – JPMorgan × AWS -->
+      <button class="case-card case-card--button" type="button" data-case="jpmorgan" aria-label="Open JPMorgan Chase case study">
+        <div class="case-card-top">
+          <span class="case-number">05</span>
+          <h3 data-text-en="Security" data-text-zh="安全">
+            Security
+          </h3>
+        </div>
+
+        <div class="company-block company-block--logo">
+          <img class="company-logo company-logo--aws" src="Company Logo/JPMorgan Chase.png" alt="JPMorgan Chase logo">
+        </div>
+
+        <div class="case-card-bottom">
+          <p
+            data-text-en="AI-driven on-premise data security using offline isolation dual-layer encryption and live audit logs"
+            data-text-zh="以人工智慧驅動的本地數據安全方案 結合離線隔離 雙層加密及即時審計記錄"
+          >
+            AI-driven on-premise data security using offline isolation dual-layer encryption and live audit logs
+          </p>
+          <span class="case-link" data-text-en="View Case Study →" data-text-zh="查看案例 →">
+            View Case Study → <span>&rarr;</span>
+          </span>
+        </div>
+      </button>
+
+    </div>
+  </div>
+
+<!-- MANUFACTURING -->
+    <div class="industry-panel" data-panel="manufacturing" id="manufacturing-panel" hidden>
+      <div class="case-grid case-grid--two">
+
+        <!-- Mitsubishi Heavy Industries – Predictive Maintenance -->
+        <button class="case-card case-card--button" type="button" data-case="mhi-maintenance">
+          <div class="case-card-top">
+            <span class="case-number">01</span>
+            <h3
+              data-text-en="Predictive Maintenance"
+              data-text-zh="預測性維護"
+            >
+              Predictive Maintenance
+            </h3>
+          </div>
+
+          <!-- Company block with language-specific logos -->
+          <div class="company-block company-block--logo">
+            <!-- English logo -->
+            <img
+              class="company-logo company-logo--mhi company-logo--en"
+              src="Company Logo/Mitsubishi Heavy Industries (ENG) .jpeg"
+              alt="Mitsubishi Heavy Industries logo"
+            >
+            <!-- Chinese logo -->
+            <img
+              class="company-logo company-logo--mhi company-logo--zh"
+              src="Company Logo/Mitsubishi Heavy Industries (CHI).png"
+              alt="三菱重工 標誌"
+            >
+          </div>
+
+          <div class="case-card-bottom">
+            <p
+              data-text-en="AI-supported monitoring helps identify equipment risks before they affect operations."
+              data-text-zh="人工智慧監測有助於在設備影響營運前識別風險"
+            >
+              AI-supported monitoring helps identify equipment risks before they affect operations.
+            </p>
+            <span
+              class="case-link"
+              data-text-en="View Case Study →"
+              data-text-zh="查看案例 →"
+            >
+              View Case Study →<span>&rarr;</span>
+            </span>
+          </div>
+        </button>
+
+        <!-- Supply Chain Optimisation – WiAdvance -->
+        <button class="case-card case-card--button" type="button" data-case="wiadvance-supply" aria-label="Open WiAdvance case study">
+          <div class="case-card-top">
+            <span class="case-number">02</span>
+            <h3
+              data-text-en="Supply Chain Optimisation"
+              data-text-zh="供應鏈最佳化"
+            >
+              Supply Chain Optimisation
+            </h3>
+          </div>
+
+          <!-- Company block with WiAdvance logo -->
+          <div class="company-block company-block--logo">
+            <img
+              class="company-logo company-logo--wiadvance"
+              src="Company Logo/WiAdvance.jpg"
+              alt="WiAdvance logo"
+            >
+          </div>
+
+          <div class="case-card-bottom">
+            <p
+              data-text-en="AI scheduling and optimisation improve production planning and resource allocation."
+              data-text-zh="人工智慧排程及最佳化有助提升生產規劃與資源分配。"
+            >
+              AI scheduling and optimisation improve production planning and resource allocation.
+            </p>
+            <span
+              class="case-link"
+              data-text-en="View Case Study →"
+              data-text-zh="查看案例 →"
+            >
+              View Case Study →<span>&rarr;</span>
+            </span>
+          </div>
+        </button>
+
+      </div>
+    </div>
+
+<!-- RETAIL -->
+    <div class="industry-panel" data-panel="retail" id="retail-panel" hidden>
+      <div class="case-grid case-grid--two">
+
+        <!-- AWS – Customer Service Agents -->
+        <button class="case-card case-card--button" type="button" data-case="aws-agents">
+          <div class="case-card-top">
+            <span class="case-number">01</span>
+            <h3
+              data-text-en="Customer Service Agents"
+              data-text-zh="客戶服務代理"
+            >
+              Customer Service Agents
+            </h3>
+          </div>
+
+          <!-- Company block with AWS logo -->
+          <div class="company-block company-block--logo">
+            <img
+              class="company-logo company-logo--aws"
+              src="Company Logo/AWS.png"
+              alt="AWS logo"
+            >
+          </div>
+
+          <div class="case-card-bottom">
+            <p
+              data-text-en="AI agents support customer-service representatives during live interactions"
+              data-text-zh="人工智慧代理在即時互動中協助客戶服務人員"
+            >
+              AI agents support customer-service representatives during live interactions
+            </p>
+            <span
+              class="case-link"
+              data-text-en="View Case Study →"
+              data-text-zh="查看案例 →"
+            >
+              View Case Study →<span>&rarr;</span>
+            </span>
+          </div>
+        </button>
+
+        <!-- Nike – Personalisation -->
+        <button class="case-card case-card--button" type="button" data-case="nike-personalisation">
+          <div class="case-card-top">
+            <span class="case-number">02</span>
+            <h3
+              data-text-en="Personalisation"
+              data-text-zh="個人化"
+            >
+              Personalisation
+            </h3>
+          </div>
+
+          <!-- Company block with Nike logo -->
+          <div class="company-block company-block--logo">
+            <img
+              class="company-logo company-logo--nike"
+              src="Company Logo/Nike.jpg"
+              alt="Nike logo"
+            >
+          </div>
+
+          <div class="case-card-bottom">
+            <p
+              data-text-en="Use customer data and AI to create more relevant product experiences"
+              data-text-zh="利用客戶數據及人工智慧提供更相關的產品體驗"
+            >
+              Use customer data and AI to create more relevant product experiences
+            </p>
+            <span
+              class="case-link"
+              data-text-en="View Case Study →"
+              data-text-zh="查看案例 →"
+            >
+              View Case Study →<span>&rarr;</span>
+            </span>
+          </div>
+        </button>
+
+      </div>
+    </div>
+
+
+<!-- HEALTH CARE -->
+    <div class="industry-panel" data-panel="healthcare" id="healthcare-panel" hidden>
+      <div class="case-grid case-grid--two">
+
+        <!-- Patient Engagement – Salesforce Health Cloud -->
+        <button
+          class="case-card case-card--button"
+          type="button"
+          data-case="salesforce-engagement"
+          aria-label="Open Salesforce Health Cloud case study"
+        >
+          <div class="case-card-top">
+            <span class="case-number">01</span>
+            <h3
+              data-text-en="Patient Engagement"
+              data-text-zh="病人互動"
+            >
+              Patient Engagement
+            </h3>
+          </div>
+
+          <!-- Company block with Salesforce Health Cloud logo -->
+          <div class="company-block company-block--logo">
+            <img
+              class="company-logo company-logo--salesforce"
+              src="Company Logo/Salesforce Health Cloud.jpg"
+              alt="Salesforce Health Cloud logo"
+            >
+          </div>
+
+          <div class="case-card-bottom">
+            <p
+              data-text-en="Connect patient information and engagement workflows across care journeys."
+              data-text-zh="連接病人資料及照護流程中的互動工作流。"
+            >
+              Connect patient information and engagement workflows across care journeys.
+            </p>
+            <span
+              class="case-link"
+              data-text-en="View Case Study →"
+              data-text-zh="查看案例 →"
+            >
+              View Case Study →<span>&rarr;</span>
+            </span>
+          </div>
+        </button>
+
+        <!-- Clinical Diagnostics – Proscia -->
+        <button
+          class="case-card case-card--button"
+          type="button"
+          data-case="prosaic-diagnostics"
+          aria-label="Open Proscia case study"
+        >
+          <div class="case-card-top">
+            <span class="case-number">02</span>
+            <h3
+              data-text-en="Clinical Diagnostics"
+              data-text-zh="臨床診斷"
+            >
+              Clinical Diagnostics
+            </h3>
+          </div>
+
+          <!-- Company block with Proscia logo -->
+          <div class="company-block company-block--logo">
+            <img
+              class="company-logo company-logo--proscia"
+              src="Company Logo/Proscia.png"
+              alt="Proscia logo"
+            >
+          </div>
+
+          <div class="case-card-bottom">
+            <p
+              data-text-en="AI supports clinical diagnostic workflows and medical decision support."
+              data-text-zh="人工智慧支援臨床診斷流程與醫療決策。"
+            >
+              AI supports clinical diagnostic workflows and medical decision support.
+            </p>
+            <span
+              class="case-link"
+              data-text-en="View Case Study →"
+              data-text-zh="查看案例 →"
+            >
+              View Case Study →<span>&rarr;</span>
+            </span>
+          </div>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- LOGISTICS -->
+    <div
+      class="industry-panel"
+      data-panel="logistics"
+      id="logistics-panel"
+      hidden
+    >
+      <div class="case-grid">
+
+        <!-- UPS ROUTE OPTIMISATION -->
+        <button
+          class="case-card case-card--button"
+          type="button"
+          data-case="ups-orion"
+          aria-label="Open UPS ORION case study"
+        >
+          <div class="case-card-top">
+            <span class="case-number">01</span>
+
+            <h3
+              data-text-en="Route Optimisation"
+              data-text-zh="路線最佳化"
+            >
+              Route Optimisation
+            </h3>
+
+          </div>
+
+          <div class="company-block company-block--ups">
+            <img
+              class="company-logo company-logo--ups"
+              src="Company Logo/UPS.png"
+              alt="UPS logo"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="case-card-bottom">
+            <p
+              data-text-en="AI-powered delivery route optimisation using traffic conditions, delivery commitments, package data, and real-time operational information."
+              data-text-zh="運用人工智慧整合即時交通、送貨承諾、包裹資料及營運資訊，優化配送路線。"
+            >
+              AI-powered delivery route optimisation using traffic conditions,
+              delivery commitments, package data, and real-time operational information.
+            </p>
+
+            <span
+              class="case-link"
+              data-text-en="View Case Study →"
+              data-text-zh="查看案例 →"
+            >
+              View Case Study →
+            </span>
+          </div>
+        </button>
+
+        <!-- SAMSARA FLEET MONITORING -->
+        <button
+          class="case-card case-card--button"
+          type="button"
+          data-case="samsara-fleet"
+          aria-label="Open Samsara fleet monitoring case study"
+        >
+          <div class="case-card-top">
+            <span class="case-number">02</span>
+
+            <h3
+              data-text-en="Fleet Monitoring"
+              data-text-zh="車隊監控"
+            >
+              Fleet Monitoring
+            </h3>
+          </div>
+
+          <div class="company-block company-block--samsara">
+            <img
+              class="company-logo company-logo--samsara"
+              src="Company Logo/Samsara.png"
+              alt="Samsara logo"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="case-card-bottom">
+            <p
+              data-text-en="AI-powered multi-camera fleet monitoring that improves vehicle visibility, detects hazards, and alerts drivers in real time."
+              data-text-zh="透過人工智慧多鏡頭車隊監控，提升車輛視野、偵測道路風險，並即時提醒司機。"
+            >
+              AI-powered multi-camera fleet monitoring that improves vehicle visibility,
+              detects hazards, and alerts drivers in real time.
+            </p>
+
+            <span
+              class="case-link"
+              data-text-en="View Case Study →"
+              data-text-zh="查看案例 →"
+            >
+              View Case Study →
+            </span>
+          </div>
+        </button>
+
+      </div>
+    </div>
+
+          <!-- HSBC DETAIL -->
+          <article class="case-detail case-detail--hsbc" data-detail="hsbc" hidden>
+            <button type="button" class="back-button" data-text-en="← Back to Finance" data-text-zh="← 返回金融">
+              ← Back to Finance
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--hsbc">
+              <p class="detail-kicker" data-text-en="HSBC × Google Cloud" data-text-zh="HSBC × Google Cloud">
+                HSBC × Google Cloud
+              </p>
+              <h2
+                data-text-en="Dynamic Risk Assessment Anti-Money Laundering AI Platform"
+                data-text-zh="動態風險評估反洗錢人工智慧平台"
+              >
+                Dynamic Risk Assessment Anti-Money Laundering AI Platform
+              </h2>
+              <p
+                data-text-en="Cloud-native Anti-Money Laundering monitoring deployed with Google Cloud"
+                data-text-zh="與 Google Cloud 合作部署的雲端原生反洗錢監控平台"
+              >
+                Cloud-native Anti-Money Laundering monitoring deployed with Google Cloud
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--hsbc">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--hsbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3 data-text-en="Anti-Money Laundering &amp; Fraud Detection" data-text-zh="反洗錢與詐騙偵測">
+                    Anti-Money Laundering &amp; Fraud Detection
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li data-text-en="Behavioral profiling replaces rigid rules" data-text-zh="行為輪廓分析取代僵化規則">
+                    Behavioral profiling replaces rigid rules
+                  </li>
+                  <li data-text-en="Network analysis finds mule rings" data-text-zh="網絡分析識別車手集團">
+                    Network analysis finds mule rings
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--hsbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3 data-text-en="Cloud Analytics" data-text-zh="雲端分析">
+                    Cloud Analytics
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li data-text-en="80%＋ faster in 24-month lookbacks" data-text-zh="24個月加快 80% 以上回溯分析">
+                    80%＋ faster in 24-month lookbacks
+                  </li>
+                  <li data-text-en="Elastic scaling handles global volume" data-text-zh="彈性擴展支援全球交易量">
+                    Elastic scaling handles global volume
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--hsbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3 data-text-en="Operational Efficiency" data-text-zh="營運效率">
+                    Operational Efficiency
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li data-text-en="Fewer false positives" data-text-zh="降低誤報">
+                    Fewer false positives.
+                  </li>
+                  <li data-text-en="Clearer, faster Suspicious Activity Reports" data-text-zh="更清晰、更快速的可疑活動報告">
+                    Clearer, faster Suspicious Activity Reports
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- OCBC DETAIL -->
+          <article class="case-detail case-detail--ocbc" data-detail="ocbc" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Finance"
+              data-text-zh="← 返回金融"
+            >
+              ← Back to Finance
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--ocbc">
+              <p
+                class="detail-kicker"
+                data-text-en="OCBC"
+                data-text-zh="OCBC"
+              >
+                OCBC
+              </p>
+              <h2
+                data-text-en="HELIOS Agentic AI Onboarding Platform"
+                data-text-zh="HELIOS 代理型人工智慧入職平台"
+              >
+                HELIOS Agentic AI Onboarding Platform
+              </h2>
+              <p
+                data-text-en="Agentic AI for faster onboarding and ongoing surveillance"
+                data-text-zh="以代理型人工智慧加速開戶並持續監控"
+              >
+                Agentic AI for faster onboarding and ongoing surveillance
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--ocbc">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--ocbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="Faster Onboarding"
+                    data-text-zh="加速開戶"
+                  >
+                    Faster Onboarding
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Cuts private banking onboarding to 15 business days"
+                    data-text-zh="私人銀行開戶縮短至 15 個工作天"
+                  >
+                    Cuts private banking onboarding to 15 business days
+                  </li>
+                  <li
+                    data-text-en="Simple cases can finish in 1 day"
+                    data-text-zh="簡單個案最快 1 天完成"
+                  >
+                    Simple cases can finish in 1 day
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--ocbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Front-Loaded Due Diligence"
+                    data-text-zh="前置盡職調查"
+                  >
+                    Front-Loaded Due Diligence
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Collects and verifies data before Relationship Manager engagement"
+                    data-text-zh="在 Relationship Manager 接觸前先收集並驗證資料"
+                  >
+                    Collects and verifies data before Relationship Manager engagement
+                  </li>
+                  <li
+                    data-text-en="Creates credit risk and source of wealth profiles early"
+                    data-text-zh="提前建立信用風險與財富來源檔案"
+                  >
+                    Creates credit risk and source of wealth profiles early
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--ocbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Smarter Compliance"
+                    data-text-zh="智慧合規"
+                  >
+                    Smarter Compliance
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Maps complex entities and relationships in minutes"
+                    data-text-zh="數分鐘內完成複雜關聯圖譜分析"
+                  >
+                    Maps complex entities and relationships in minutes
+                  </li>
+                  <li
+                    data-text-en="Continuously monitors risk after onboarding"
+                    data-text-zh="開戶後持續監控風險"
+                  >
+                    Continuously monitors risk after onboarding
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- OCBC DETAIL -->
+          <article class="case-detail case-detail--ocbc" data-detail="ocbc" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Finance"
+              data-text-zh="← 返回金融"
+            >
+              ← Back to Finance
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--ocbc">
+              <p
+                class="detail-kicker"
+                data-text-en="OCBC"
+                data-text-zh="OCBC"
+              >
+                OCBC
+              </p>
+              <h2
+                data-text-en="HELIOS Agentic AI Onboarding Platform"
+                data-text-zh="HELIOS 代理型人工智慧入職平台"
+              >
+                HELIOS Agentic AI Onboarding Platform
+              </h2>
+              <p
+                data-text-en="Agentic AI for faster onboarding and ongoing surveillance"
+                data-text-zh="以代理型人工智慧加速開戶並持續監控"
+              >
+                Agentic AI for faster onboarding and ongoing surveillance
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--ocbc">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--ocbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="Faster Onboarding"
+                    data-text-zh="加速開戶"
+                  >
+                    Faster Onboarding
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Cuts private banking onboarding to 15 business days"
+                    data-text-zh="私人銀行開戶縮短至 15 個工作天"
+                  >
+                    Cuts private banking onboarding to 15 business days
+                  </li>
+                  <li
+                    data-text-en="Simple cases can finish in 1 day"
+                    data-text-zh="簡單個案最快 1 天完成"
+                  >
+                    Simple cases can finish in 1 day
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--ocbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Front-Loaded Due Diligence"
+                    data-text-zh="前置盡職調查"
+                  >
+                    Front-Loaded Due Diligence
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Collects and verifies data before Relationship Manager engagement"
+                    data-text-zh="在 Relationship Manager 接觸前先收集並驗證資料"
+                  >
+                    Collects and verifies data before Relationship Manager engagement
+                  </li>
+                  <li
+                    data-text-en="Creates credit risk and source of wealth profiles early"
+                    data-text-zh="提前建立信用風險與財富來源檔案"
+                  >
+                    Creates credit risk and source of wealth profiles early
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--ocbc">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Smarter Compliance"
+                    data-text-zh="智慧合規"
+                  >
+                    Smarter Compliance
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Maps complex entities and relationships in minutes"
+                    data-text-zh="數分鐘內完成複雜關聯圖譜分析"
+                  >
+                    Maps complex entities and relationships in minutes
+                  </li>
+                  <li
+                    data-text-en="Continuously monitors risk after onboarding"
+                    data-text-zh="開戶後持續監控風險"
+                  >
+                    Continuously monitors risk after onboarding
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- ASK DAVID DETAIL -->
+          <article class="case-detail case-detail--david" data-detail="david" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Finance"
+              data-text-zh="← 返回金融"
+            >
+              ← Back to Finance
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--david">
+              <p
+                class="detail-kicker"
+                data-text-en="J.P. Morgan Private Bank"
+                data-text-zh="摩根大通私人銀行"
+              >
+                J.P. Morgan Private Bank
+              </p>
+              <h2
+                data-text-en="Ask DAVID"
+                data-text-zh="Ask DAVID"
+              >
+                Ask DAVID
+              </h2>
+              <p
+                data-text-en="AI-Powered Domain-Specific Question Answering Agent for Investment Research & Advisory"
+                data-text-zh="專為投資研究與顧問設計的領域專用人工智慧問答代理"
+              >
+                AI-Powered Domain-Specific Question Answering Agent for Investment Research & Advisory
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--david">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--david">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="Research Automation"
+                    data-text-zh="研究自動化"
+                  >
+                    Research Automation
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Queries structured and unstructured data"
+                    data-text-zh="查詢結構化與非結構化資料"
+                  >
+                    Queries structured and unstructured data
+                  </li>
+                  <li
+                    data-text-en="Speeds up complex investment questions"
+                    data-text-zh="加速複雜投資問題回應"
+                  >
+                    Speeds up complex investment questions
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--david">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Advisor Support"
+                    data-text-zh="顧問支援"
+                  >
+                    Advisor Support
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Gives instant analytics and reasoning in meetings"
+                    data-text-zh="會議中即時提供分析與推理"
+                  >
+                    Gives instant analytics and reasoning in meetings
+                  </li>
+                  <li
+                    data-text-en="Reduces wait time for presentations"
+                    data-text-zh="縮短簡報等待時間"
+                  >
+                    Reduces wait time for presentations
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--david">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Efficient Expert Work"
+                    data-text-zh="提升專家效率"
+                  >
+                    Efficient Expert Work
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Delivers personalized insights at scale"
+                    data-text-zh="規模化提供客製化分析觀點"
+                  >
+                    Delivers personalized insights at scale
+                  </li>
+                  <li
+                    data-text-en="Frees experts for higher-value decisions"
+                    data-text-zh="讓專家專注高價值決策"
+                  >
+                    Frees experts for higher-value decisions
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- JPMORGAN CHASE WITH AWS -->
+          <article class="case-detail case-detail--jpmorgan" data-detail="jpmorgan" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Finance"
+              data-text-zh="← 返回金融"
+            >
+              ← Back to Finance
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--jpmorgan">
+              <p
+                class="detail-kicker"
+                data-text-en="JPMorgan Chase × AWS"
+                data-text-zh="JPMorgan Chase × AWS"
+              >
+                JPMorgan Chase × AWS
+              </p>
+              <h2
+                data-text-en="Omni-AI Secure Model Training Platform"
+                data-text-zh="Omni-AI 安全模型訓練平台"
+              >
+                Omni-AI Secure Model Training Platform
+              </h2>
+              <p
+                data-text-en="Secure AI training with isolated cloud infrastructure and on-premises control"
+                data-text-zh="透過隔離雲端基礎設施與地端控制實現安全人工智慧訓練"
+              >
+                Secure AI training with isolated cloud infrastructure and on-premises control
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--jpmorgan">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--jpmorgan">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="On-Premises Control"
+                    data-text-zh="地端控制"
+                  >
+                    On-Premises Control
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Identity checks happen in JPMC data center"
+                    data-text-zh="身分驗證在 JPMC 地端完成"
+                  >
+                    Identity checks happen in JPMC data center
+                  </li>
+                  <li
+                    data-text-en="Data access is tied to internal entitlements"
+                    data-text-zh="資料存取綁定內部權限"
+                  >
+                    Data access is tied to internal entitlements
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--jpmorgan">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Isolated Cloud Training"
+                    data-text-zh="隔離雲端訓練"
+                  >
+                    Isolated Cloud Training
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Private VPC has zero internet access"
+                    data-text-zh="私有 VPC 無外網存取"
+                  >
+                    Private VPC has zero internet access
+                  </li>
+                  <li
+                    data-text-en="Service Catalog provisions approved environments"
+                    data-text-zh="由 Service Catalog 建立核准環境"
+                  >
+                    Service Catalog provisions approved environments
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--jpmorgan">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Encrypted Audit Trail"
+                    data-text-zh="加密稽核軌跡"
+                  >
+                    Encrypted Audit Trail
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="CloudHSM protects encryption keys"
+                    data-text-zh="CloudHSM 保護加密金鑰"
+                  >
+                    CloudHSM protects encryption keys
+                  </li>
+                  <li
+                    data-text-en="Logs stream to immutable compliance records"
+                    data-text-zh="日誌即時串流至合規記錄"
+                  >
+                    Logs stream to immutable compliance records
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- MHI DETAIL -->
+          <article class="case-detail case-detail--mhi" data-detail="mhi-maintenance" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Manufacturing"
+              data-text-zh="← 返回製造"
+            >
+              ← Back to Manufacturing
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--mhi">
+              <p
+                class="detail-kicker"
+                data-text-en="Mitsubishi Heavy Industries × SoftBank"
+                data-text-zh="三菱重工 × SoftBank"
+              >
+                Mitsubishi Heavy Industries × SoftBank
+              </p>
+              <h2
+                data-text-en="On-Site AI Equipment Inspection"
+                data-text-zh="現場人工智慧設備檢測"
+              >
+                On-Site AI Equipment Inspection
+              </h2>
+              <p
+                data-text-en="Edge AI for instant defect detection with zero cloud data transfer"
+                data-text-zh="邊緣人工智慧即時偵測缺陷且資料不上傳雲端"
+              >
+                Edge AI for instant defect detection with zero cloud data transfer
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--mhi">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--mhi">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="Zero Latency"
+                    data-text-zh="零延遲"
+                  >
+                    Zero Latency
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Runs AI on site for instant results"
+                    data-text-zh="現場運行人工智慧即時得出結果"
+                  >
+                    Runs AI on site for instant results
+                  </li>
+                  <li
+                    data-text-en="No wait for cloud processing"
+                    data-text-zh="無需等待雲端處理"
+                  >
+                    No wait for cloud processing
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--mhi">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Mobile Inspection"
+                    data-text-zh="手機檢測"
+                  >
+                    Mobile Inspection
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Workers upload part photos by phone"
+                    data-text-zh="工人以手機上傳零件照片"
+                  >
+                    Workers upload part photos by phone
+                  </li>
+                  <li
+                    data-text-en="System flags defects and repair steps"
+                    data-text-zh="系統標示缺陷並提供維修步驟"
+                  >
+                    System flags defects and repair steps
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--mhi">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Data Privacy"
+                    data-text-zh="資料隱私"
+                  >
+                    Data Privacy
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Sensitive data stays on premises"
+                    data-text-zh="敏感資料留在本地"
+                  >
+                    Sensitive data stays on premises
+                  </li>
+                  <li
+                    data-text-en="No confidential files sent to the cloud"
+                    data-text-zh="機密檔案不上傳雲端"
+                  >
+                    No confidential files sent to the cloud
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+        <!-- WIADVANCE DETAIL -->
+        <article class="case-detail case-detail--wiadvance" data-detail="wiadvance-supply" hidden>
+          <button
+            type="button"
+            class="back-button"
+            data-text-en="← Back to Manufacturing"
+            data-text-zh="← 返回製造"
+          >
+            ← Back to Manufacturing
+          </button>
+
+          <div class="case-detail-intro case-detail-intro--wiadvance">
+            <p
+              class="detail-kicker"
+              data-text-en="WiAdvance"
+              data-text-zh="WiAdvance"
+            >
+              WiAdvance
+            </p>
+            <h2
+              data-text-en="AI Supply Chain Optimisation Platform"
+              data-text-zh="人工智慧供應鏈最佳化平台"
+            >
+              AI Supply Chain Optimisation Platform
+            </h2>
+            <p
+              data-text-en="AI scheduling and optimisation improve production planning and resource allocation."
+              data-text-zh="人工智慧排程及最佳化有助提升生產規劃與資源分配。"
+            >
+              AI scheduling and optimisation improve production planning and resource allocation.
+            </p>
+          </div>
+
+          <div class="benefit-grid benefit-grid--wiadvance">
+            <!-- Point 01 -->
+            <div class="benefit-card benefit-card--wiadvance">
+              <div class="benefit-header">
+                <span class="benefit-number">01</span>
+                <h3
+                  data-text-en="Smarter Production Planning"
+                  data-text-zh="更智慧的生產規劃"
+                >
+                  Smarter Production Planning
+                </h3>
+              </div>
+              <ul class="bullet-list">
+                <li
+                  data-text-en="Optimises production schedules across plants"
+                  data-text-zh="最佳化跨工廠生產排程"
+                >
+                  Optimises production schedules across plants
+                </li>
+                <li
+                  data-text-en="Balances demand, capacity, and inventory levels"
+                  data-text-zh="平衡需求、產能與庫存水位"
+                >
+                  Balances demand, capacity, and inventory levels
+                </li>
+              </ul>
+            </div>
+
+            <!-- Point 02 -->
+            <div class="benefit-card benefit-card--wiadvance">
+              <div class="benefit-header">
+                <span class="benefit-number">02</span>
+                <h3
+                  data-text-en="Resource Allocation"
+                  data-text-zh="資源分配最佳化"
+                >
+                  Resource Allocation
+                </h3>
+              </div>
+              <ul class="bullet-list">
+                <li
+                  data-text-en="Assigns resources to priority orders automatically"
+                  data-text-zh="自動將資源分配至優先訂單"
+                >
+                  Assigns resources to priority orders automatically
+                </li>
+                <li
+                  data-text-en="Reduces overtime and rush shipments"
+                  data-text-zh="減少加班與急單出貨"
+                >
+                  Reduces overtime and rush shipments
+                </li>
+              </ul>
+            </div>
+
+            <!-- Point 03 -->
+            <div class="benefit-card benefit-card--wiadvance">
+              <div class="benefit-header">
+                <span class="benefit-number">03</span>
+                <h3
+                  data-text-en="Risk Visibility"
+                  data-text-zh="風險可視化"
+                >
+                  Risk Visibility
+                </h3>
+              </div>
+              <ul class="bullet-list">
+                <li
+                  data-text-en="Highlights bottlenecks before they impact delivery"
+                  data-text-zh="在影響交期前先行標示瓶頸"
+                >
+                  Highlights bottlenecks before they impact delivery
+                </li>
+                <li
+                  data-text-en="Provides alerts for supply disruptions and delays"
+                  data-text-zh="提供供應中斷與延誤預警"
+                >
+                  Provides alerts for supply disruptions and delays
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+
+
+          <!-- AWS DETAIL -->
+          <article class="case-detail case-detail--aws" data-detail="aws-agents" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Retail"
+              data-text-zh="← 返回零售"
+            >
+              ← Back to Retail
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--aws">
+              <p
+                class="detail-kicker"
+                data-text-en="AWS"
+                data-text-zh="AWS"
+              >
+                AWS
+              </p>
+              <h2
+                data-text-en="AWS Q Customer Service Agent"
+                data-text-zh="AWS Q 客戶服務代理"
+              >
+                AWS Q Customer Service Agent
+              </h2>
+              <p
+                data-text-en="AI answers live chat questions from internal policies and FAQs"
+                data-text-zh="人工智慧依內部政策與 FAQ 即時回答線上客服問題"
+              >
+                AI answers live chat questions from internal policies and FAQs
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--amazon">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--amazon">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="Natural Language Search"
+                    data-text-zh="自然語言搜尋"
+                  >
+                    Natural Language Search
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Agents type customer questions as-is"
+                    data-text-zh="客服可直接輸入顧客原話"
+                  >
+                    Agents type customer questions as-is
+                  </li>
+                  <li
+                    data-text-en="No need to guess keywords"
+                    data-text-zh="無需猜測關鍵字"
+                  >
+                    No need to guess keywords
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--amazon">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Connected Knowledge"
+                    data-text-zh="串聯知識庫"
+                  >
+                    Connected Knowledge
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Scans policies FAQs and product manuals"
+                    data-text-zh="掃描政策 FAQ 與產品手冊"
+                  >
+                    Scans policies FAQs and product manuals
+                  </li>
+                  <li
+                    data-text-en="Returns a clear answer with source links"
+                    data-text-zh="回傳清楚答案並附來源連結"
+                  >
+                    Returns a clear answer with source links
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--aws">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Faster Live Support"
+                    data-text-zh="加速即時支援"
+                  >
+                    Faster Live Support
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Agents review then paste into chat"
+                    data-text-zh="客服審核後貼到對話"
+                  >
+                    Agents review then paste into chat
+                  </li>
+                  <li
+                    data-text-en="Cuts wait time during customer talks"
+                    data-text-zh="縮短顧客對話等待時間"
+                  >
+                    Cuts wait time during customer talks
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+    
+          <!-- NIKE DETAIL -->
+          <article class="case-detail case-detail--nike" data-detail="nike-personalisation" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Retail"
+              data-text-zh="← 返回零售"
+            >
+              ← Back to Retail
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--nike">
+              <p
+                class="detail-kicker"
+                data-text-en="Nike × SAP Emarsys"
+                data-text-zh="Nike × SAP Emarsys"
+              >
+                Nike × SAP Emarsys
+              </p>
+              <h2
+                data-text-en="Customer Lifecycle Personalisation Platform"
+                data-text-zh="顧客生命週期個人化平台"
+              >
+                Customer Lifecycle Personalisation Platform
+              </h2>
+              <p
+                data-text-en="AI-driven engagement across lifecycle stages and welcome journeys"
+                data-text-zh="以人工智慧驅動全生命週期互動與歡迎旅程"
+              >
+                AI-driven engagement across lifecycle stages and welcome journeys
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--nike">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--nike">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="Lifecycle Analytics"
+                    data-text-zh="生命週期分析"
+                  >
+                    Lifecycle Analytics
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Groups customers into five clear stages"
+                    data-text-zh="將顧客分為五個清楚階段"
+                  >
+                    Groups customers into five clear stages
+                  </li>
+                  <li
+                    data-text-en="Tracks conversion churn and win-back rates"
+                    data-text-zh="追蹤轉換流失與挽回率"
+                  >
+                    Tracks conversion churn and win-back rates
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--nike">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Automated Welcome Journeys"
+                    data-text-zh="自動歡迎旅程"
+                  >
+                    Automated Welcome Journeys
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Triggers timed emails after new member signup"
+                    data-text-zh="新會員註冊後自動觸發定時郵件"
+                  >
+                    Triggers timed emails after new member signup
+                  </li>
+                  <li
+                    data-text-en="Updates segments and retargeting audiences"
+                    data-text-zh="同步更新分群與再行銷名單"
+                  >
+                    Updates segments and retargeting audiences
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--nike">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Personalised Offers"
+                    data-text-zh="個人化推薦"
+                  >
+                    Personalised Offers
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Recommends products based on user preference"
+                    data-text-zh="依使用者偏好推薦商品"
+                  >
+                    Recommends products based on user preference
+                  </li>
+                  <li
+                    data-text-en="Highlights campaigns that drive revenue"
+                    data-text-zh="凸顯能帶動營收的行銷活動"
+                  >
+                    Highlights campaigns that drive revenue
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- SALESFORCE HEALTH CLOUD DETAIL -->
+          <article class="case-detail case-detail--salesforce" data-detail="salesforce-engagement" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Health Care"
+              data-text-zh="← 返回醫療"
+            >
+              ← Back to Health Care
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--salesforce">
+              <p
+                class="detail-kicker"
+                data-text-en="Salesforce Health Cloud × PwC"
+                data-text-zh="Salesforce Health Cloud × PwC"
+              >
+                Salesforce Health Cloud × PwC
+              </p>
+              <h2
+                data-text-en="Intelligent Patient Engagement Platform"
+                data-text-zh="智慧病人互動平台"
+              >
+                Intelligent Patient Engagement Platform
+              </h2>
+              <p
+                data-text-en="AI matching referrals and self-service for smoother care journeys"
+                data-text-zh="以人工智慧配對轉診與自主服務優化照護旅程"
+              >
+                AI matching referrals and self-service for smoother care journeys
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--salesforce">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--salesforce">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="Smart Provider Matching"
+                    data-text-zh="智慧醫師配對"
+                  >
+                    Smart Provider Matching
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Matches patients using EHR and preferences"
+                    data-text-zh="依 EHR 與偏好配對病人"
+                  >
+                    Matches patients using EHR and preferences
+                  </li>
+                  <li
+                    data-text-en="Books the right specialist and time slot"
+                    data-text-zh="安排合適專科醫師與時段"
+                  >
+                    Books the right specialist and time slot
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--salesforce">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Faster Referrals"
+                    data-text-zh="加速轉診"
+                  >
+                    Faster Referrals
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Tracks cross-network referral leakage"
+                    data-text-zh="追蹤跨網絡轉診流失點"
+                  >
+                    Tracks cross-network referral leakage
+                  </li>
+                  <li
+                    data-text-en="Cuts referral processing by 8 days"
+                    data-text-zh="轉診處理時間縮短 8 天"
+                  >
+                    Cuts referral processing by 8 days
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--salesforce">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Self-Service AI"
+                    data-text-zh="自主服務 AI"
+                  >
+                    Self-Service AI
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Handles routine questions and booking"
+                    data-text-zh="處理日常諮詢與預約"
+                  >
+                    Handles routine questions and booking
+                  </li>
+                  <li
+                    data-text-en="Frees staff for complex patient cases"
+                    data-text-zh="讓人員專注複雜個案"
+                  >
+                    Frees staff for complex patient cases
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          
+          <!-- PROSCIA DETAIL -->
+          <article class="case-detail case-detail--proscia" data-detail="prosaic-diagnostics" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Health Care"
+              data-text-zh="← 返回醫療"
+            >
+              ← Back to Health Care
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--proscia">
+              <p
+                class="detail-kicker"
+                data-text-en="Proscia"
+                data-text-zh="Proscia"
+              >
+                Proscia
+              </p>
+              <h2
+                data-text-en="AI Pathology for Global Clinical Trials"
+                data-text-zh="全球臨床臨床試驗 AI 病理平台"
+              >
+                AI Pathology for Global Clinical Trials
+              </h2>
+              <p
+                data-text-en="Digital slides and AI scoring to design run and enrich trials faster"
+                data-text-zh="以數位切片與 AI 評分加速試驗設計、執行與收案"
+              >
+                Digital slides and AI scoring to design run and enrich trials faster
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--proscia">
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--proscia">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+                  <h3
+                    data-text-en="Confident Trial Design"
+                    data-text-zh="精準試驗設計"
+                  >
+                    Confident Trial Design
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Maps biomarker prevalence with real-world data"
+                    data-text-zh="以真實世界數據掌握生物標記分佈"
+                  >
+                    Maps biomarker prevalence with real-world data
+                  </li>
+                  <li
+                    data-text-en="Finds sites best placed to recruit patients"
+                    data-text-zh="找出最易招募病患的試驗中心"
+                  >
+                    Finds sites best placed to recruit patients
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--proscia">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+                  <h3
+                    data-text-en="Global Scale Operations"
+                    data-text-zh="規模化全球執行"
+                  >
+                    Global Scale Operations
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Centralizes slides across trial sites in the cloud"
+                    data-text-zh="將各地切片集中至雲端平台"
+                  >
+                    Centralizes slides across trial sites in the cloud
+                  </li>
+                  <li
+                    data-text-en="Standardizes AI scoring for consistent results"
+                    data-text-zh="以 AI 評分統一判讀標準"
+                  >
+                    Standardizes AI scoring for consistent results
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--proscia">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+                  <h3
+                    data-text-en="Faster Enrollment"
+                    data-text-zh="加速收案"
+                  >
+                    Faster Enrollment
+                  </h3>
+                </div>
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Pre-screens likely biomarker-positive patients"
+                    data-text-zh="預先篩選高機率生物標記陽性病患"
+                  >
+                    Pre-screens likely biomarker-positive patients
+                  </li>
+                  <li
+                    data-text-en="Cuts costly tests and shortens recruitment time"
+                    data-text-zh="減少高成本檢測並縮短招募時間"
+                  >
+                    Cuts costly tests and shortens recruitment time
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          
+          <!-- UPS ORION DETAIL -->
+          <article class="case-detail case-detail--ups" data-detail="ups-orion" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Logistics"
+              data-text-zh="← 返回物流"
+            >
+              ← Back to Logistics
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--ups">
+              <p
+                class="detail-kicker"
+                data-text-en="UPS × ORION"
+                data-text-zh="UPS × ORION"
+              >
+                UPS × ORION
+              </p>
+
+              <h2
+                data-text-en="AI-Powered Dynamic Route Optimisation"
+                data-text-zh="人工智慧動態路線最佳化"
+              >
+                AI-Powered Dynamic Route Optimisation
+              </h2>
+
+              <p
+                data-text-en="ORION uses operational data and optimisation algorithms to create efficient delivery routes, then adapts routes as traffic conditions and delivery commitments change."
+                data-text-zh="ORION 運用營運資料與最佳化演算法規劃高效率配送路線，並隨交通狀況及送貨承諾變化而動態調整。"
+              >
+                ORION uses operational data and optimisation algorithms to create efficient delivery routes, then adapts routes as traffic conditions and delivery commitments change.
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--ups">
+
+              <div class="benefit-card benefit-card--ups">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+
+                  <h3
+                    data-text-en="Intelligent Route Planning"
+                    data-text-zh="智能路線規劃"
+                  >
+                    Intelligent Route Planning
+                  </h3>
+                </div>
+
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Analyses delivery stops, collection commitments, package information, and route constraints."
+                    data-text-zh="分析送貨站點、取件承諾、包裹資料及路線限制。"
+                  >
+                    Analyses delivery stops, collection commitments, package information, and route constraints.
+                  </li>
+
+                  <li
+                    data-text-en="Creates an efficient initial route before drivers begin their daily deliveries."
+                    data-text-zh="在司機每日出車前，預先計算高效率的初始配送路線。"
+                  >
+                    Creates an efficient initial route before drivers begin their daily deliveries.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="benefit-card benefit-card--ups">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+
+                  <h3
+                    data-text-en="Dynamic Optimisation"
+                    data-text-zh="動態即時重算"
+                  >
+                    Dynamic Optimisation
+                  </h3>
+                </div>
+
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Recalculates routes when traffic conditions, road incidents, or delivery commitments change."
+                    data-text-zh="當交通狀況、道路事故或送貨承諾改變時，即時重新計算路線。"
+                  >
+                    Recalculates routes when traffic conditions, road incidents, or delivery commitments change.
+                  </li>
+
+                  <li
+                    data-text-en="Provides drivers with updated route guidance while they are already on the road."
+                    data-text-zh="即使司機已在路上，系統仍可提供更新後的路線指引。"
+                  >
+                    Provides drivers with updated route guidance while they are already on the road.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="benefit-card benefit-card--ups">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+
+                  <h3
+                    data-text-en="Operational Impact"
+                    data-text-zh="營運成效"
+                  >
+                    Operational Impact
+                  </h3>
+                </div>
+
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="ORION has been associated with approximately 100 million fewer miles travelled annually."
+                    data-text-zh="ORION 每年可減少約 1 億英里的行駛里程。"
+                  >
+                    ORION has been associated with approximately 100 million fewer miles travelled annually.
+                  </li>
+
+                  <li
+                    data-text-en="UPS estimates annual fuel savings of approximately 10 million gallons through route optimisation."
+                    data-text-zh="UPS 估計透過路線最佳化，每年可節省約 1,000 萬加侖燃料。"
+                  >
+                    UPS estimates annual fuel savings of approximately 10 million gallons through route optimisation.
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </article>
+
+        
+          <!-- SAMSARA FLEET MONITORING DETAIL -->
+          <article class="case-detail case-detail--samsara" data-detail="samsara-fleet" hidden>
+            <button
+              type="button"
+              class="back-button"
+              data-text-en="← Back to Logistics"
+              data-text-zh="← 返回物流"
+            >
+              ← Back to Logistics
+            </button>
+
+            <div class="case-detail-intro case-detail-intro--samsara">
+              <p
+                class="detail-kicker"
+                data-text-en="Samsara AI Multicam"
+                data-text-zh="Samsara AI 多鏡頭系統"
+              >
+                Samsara AI Multicam
+              </p>
+
+              <h2
+                data-text-en="AI-Powered 360° Fleet Monitoring"
+                data-text-zh="人工智慧 360 度車隊監控"
+              >
+                AI-Powered 360° Fleet Monitoring
+              </h2>
+
+              <p
+                data-text-en="Samsara AI Multicam combines high-definition cameras, computer vision, and real-time in-cab alerts to improve driver awareness, reduce blind spots, and strengthen fleet safety."
+                data-text-zh="Samsara AI 多鏡頭系統結合高清鏡頭、電腦視覺及即時車廂內警示，提升司機路況感知、減少盲區並強化車隊安全。"
+              >
+                Samsara AI Multicam combines high-definition cameras, computer vision, and real-time in-cab alerts to improve driver awareness, reduce blind spots, and strengthen fleet safety.
+              </p>
+            </div>
+
+            <div class="benefit-grid benefit-grid--samsara">
+
+              <!-- Card 1 -->
+              <div class="benefit-card benefit-card--samsara">
+                <div class="benefit-header">
+                  <span class="benefit-number">01</span>
+
+                  <h3
+                    data-text-en="Full-Vehicle HD Visibility"
+                    data-text-zh="全車高清可視化監控"
+                  >
+                    Full-Vehicle HD Visibility
+                  </h3>
+                </div>
+
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Supports up to four auxiliary 1080p HD cameras, or up to eight with a Dual AI Multicam setup."
+                    data-text-zh="支援最多 4 個 1080p 高清輔助鏡頭；採用雙 AI Multicam 配置時最多可支援 8 個鏡頭。"
+                  >
+                    Supports up to four auxiliary 1080p HD cameras, or up to eight with a Dual AI Multicam setup.
+                  </li>
+
+                  <li
+                    data-text-en="Cameras can be installed at the vehicle side, rear, interior, or specialised equipment locations."
+                    data-text-zh="鏡頭可安裝於車側、車尾、車廂內部或特殊設備位置。"
+                  >
+                    Cameras can be installed at the vehicle side, rear, interior, or specialised equipment locations.
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="benefit-card benefit-card--samsara">
+                <div class="benefit-header">
+                  <span class="benefit-number">02</span>
+
+                  <h3
+                    data-text-en="Live In-Cab AI Detections"
+                    data-text-zh="車廂內即時 AI 偵測"
+                  >
+                    Live In-Cab AI Detections
+                  </h3>
+                </div>
+
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="AI analyses camera streams to identify pedestrians, cyclists, nearby vehicles, and reversing hazards."
+                    data-text-zh="AI 會分析所有鏡頭畫面，識別行人、單車、鄰近車輛及倒車風險。"
+                  >
+                    AI analyses camera streams to identify pedestrians, cyclists, nearby vehicles, and reversing hazards.
+                  </li>
+
+                  <li
+                    data-text-en="Drivers receive real-time visual cues and audio alerts through an in-cab monitor."
+                    data-text-zh="司機可透過車廂內螢幕接收即時視覺提示及聲音警示。"
+                  >
+                    Drivers receive real-time visual cues and audio alerts through an in-cab monitor.
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="benefit-card benefit-card--samsara">
+                <div class="benefit-header">
+                  <span class="benefit-number">03</span>
+
+                  <h3
+                    data-text-en="Footage Retrieval & Industry AI"
+                    data-text-zh="影像回溯及行業 AI 應用"
+                  >
+                    Footage Retrieval & Industry AI
+                  </h3>
+                </div>
+
+                <ul class="bullet-list">
+                  <li
+                    data-text-en="Retrieve up to 10 minutes of synchronised video and audio to investigate incidents and support liability reviews."
+                    data-text-zh="可提取長達 10 分鐘的同步影片及音訊，協助調查事故及處理責任爭議。"
+                  >
+                    Retrieve up to 10 minutes of synchronised video and audio to investigate incidents and support liability reviews.
+                  </li>
+
+                  <li
+                    data-text-en="Supports specialised use cases such as passenger-left-behind detection for transit and school buses."
+                    data-text-zh="支援特定行業應用，例如公共交通及校車的乘客遺留 AI 偵測。"
+                  >
+                    Supports specialised use cases such as passenger-left-behind detection for transit and school buses.
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </article>
+
+
+
+
+        </div><!-- industry-panel-wrap -->
+      </div><!-- section-container -->
+    </section><!-- industry-section -->
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="section-container cta-container">
+        <div>
+          <p
+            class="eyebrow eyebrow--light"
+            data-text-en="INDUSTRY AI USE CASES"
+            data-text-zh="行業人工智慧應用案例"
+          >
+            INDUSTRY AI USE CASES
+          </p>
+          <h2
+            data-text-en="Ready to explore your AI use case?"
+            data-text-zh="準備好探索你的人工智慧應用了嗎？"
+          >
+            Ready to explore your AI use case?
+          </h2>
+          <p
+            data-text-en="Design secure, scalable AI solutions grounded in real-world industry cases across finance manufacturing retail health care and logistics"
+            data-text-zh="以金融 製造 零售 醫療與物流等真實行業案例為基礎 為你的業務設計安全且可擴展的人工智慧解決方案"
+          >
+            Design secure, scalable AI solutions grounded in real-world industry cases across finance manufacturing retail health care and logistics
+          </p>
+        </div>
+
+        <a href="mailto:enquiry@example.com" class="secondary-button">
+          <span data-text-en="Talk to an Expert" data-text-zh="聯絡專家">
+            Talk to an Expert
+          </span>
+          <span>&rarr;</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="Styling and JavaScript/Script.js"></script>
+</body>
+</html>
